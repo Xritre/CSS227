@@ -1,0 +1,77 @@
+body {
+   background-color:#bda464 ;
+    font-family: 'Inconsolata', monospace; ;
+}
+
+h1 {
+    color: blue;
+    animation-name: Antony;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+li {
+    color: #0000FF;
+}
+
+p {
+    background-color: orange;
+}
+
+h3 {
+    border: 5px red solid;
+}
+
+abbr {
+    text-decoration: underline;
+    font-weight: bold    ;
+    
+}
+
+.explanation {
+    color: red;
+}
+
+ #zen-benefits p {
+     background-color: pink;
+ }
+
+li + h2 {
+    background-color: red;
+}
+
+p em {
+    color: red;
+     font-weight: bold   ;
+    
+}
+
+a:visited {
+    color: green;
+}
+
+@keyframes Antony{
+    0%  {
+        transform: translateX(-15px);
+        opacity:0
+    }
+    25% {
+         
+        transform:translate(20px, 10px) ;
+    }
+
+    75%    {
+        opacity:0.25 ;
+        transform: rotate(-2deg);
+    }
+    90% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+
+
